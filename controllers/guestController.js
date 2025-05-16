@@ -1,5 +1,6 @@
 const Guest = require("../models/Guest");
 
+//add guest...
 exports.addGuest = async (req, res) => {
   try {
     // Check if a guest with the same phone number already exists
