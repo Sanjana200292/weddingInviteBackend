@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+//guest schema ...
 const GuestSchema = new mongoose.Schema({
   name: { type: String, required: true },
   phone: { type: String, required: true, unique: true },
