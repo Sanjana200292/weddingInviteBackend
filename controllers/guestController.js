@@ -20,6 +20,7 @@ exports.addGuest = async (req, res) => {
   }
 };
 
+//exports guestes....
 exports.getGuests = async (req, res) => {
   try {
     const guests = await Guest.find();
